@@ -1,0 +1,75 @@
+* {
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+
+header {
+   width:100%;
+   background-color:#333;
+   padding:2rem;
+   text-align: center;
+   color:white;
+}
+
+.container{
+   padding:2rem;
+   width:90%;
+   margin:0 auto;
+}
+
+input {
+   width:100%;
+   padding:2rem;
+}
+
+#submitbutton {
+   width:100%;
+   padding:1rem;
+   background-color:lightblue;
+   border:none;
+   color:white;
+}
+
+ul {
+   padding-top:2rem;
+   display:grid;
+   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+   grid-template-rows: 1fr;
+   gap: 1rem;
+   justify-content: center;
+
+}
+
+li {
+   list-style-type: none;
+   background-color:lightblue;
+   color:white;
+   padding:2rem;
+}
+
+ul button {
+   height:100%;
+   color:green;
+   border:none;
+   padding:.5rem 1rem;
+   margin-right:10px;
+   transition:all 1s;
+}
+
+ul button:hover {
+   transform: scale(1.1);
+}
+
+
+
+
+/* Dynamic Classes added with JS */
+.done {
+   text-decoration: line-through;
+}
+
+.hide {
+   display:hidden!important;
+}
+
